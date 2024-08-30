@@ -20,6 +20,20 @@ body {
   background-position: center;
 }
 
+#Mis-trabajos .image-top1 {
+  height: 200px;
+  max-width: 150%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#Mis-trabajos .card-1 {
+  padding: auto;
+  width: 95%;
+  background-color: white;
+}
+
 /* Contacto */
 
 #Contacto form label {
