@@ -13,6 +13,7 @@ body {
 
 /* Mis trabajos */
 
+/* ESTA PARTE ES PARA LAS IMG*/
 #Mis-trabajos .image-top {
   height: 250px;
   background-repeat: no-repeat;
@@ -20,18 +21,85 @@ body {
   background-position: center;
 }
 
-#Mis-trabajos .image-top1 {
-  height: 200px;
-  max-width: 150%;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+
+#Mis-trabajos .columna6 {
+  padding-bottom: 70px;
+  margin-top: -42.5em;
+  margin-left: 72%; 
+  
 }
 
-#Mis-trabajos .card-1 {
-  padding: auto;
-  width: 95%;
-  background-color: white;
+#Mis-trabajos .columna5 {
+  padding-right: 70%;
+  padding-bottom: 70px;
+  margin-top: -41.4em;
+  margin-left: 35.8%;
+}
+
+#Mis-trabajos .columna4 {
+  padding-right: 65%;
+  margin-left: 2%;
+  padding-bottom: 50px;
+}
+
+#Mis-trabajos .columna3 {
+  padding-right: 40%;
+  margin-left: 70%;
+  padding-bottom: 20px;
+  margin-top: -41.3em;
+  
+}
+#Mis-trabajos .columna2 {
+  padding-right: 70%;
+  padding-bottom: 20px;
+  margin-top: -41.2em;
+  margin-left: 35%;
+}
+
+#Mis-trabajos .columna1 {
+  padding-right: 65%;
+  margin-left: 2%;
+  padding-bottom: 50px;
+  margin-top: 10%;
+}
+
+#Mis-trabajos .card6 {
+  background-color: rgb(77, 77, 238);
+  height: 95%;
+  width: 270px;
+}
+
+#Mis-trabajos .card5 {
+  background-color: rgb(77, 77, 238);
+  width: 270px;
+  height: 95%;
+  
+}
+
+#Mis-trabajos .card4 {
+  background-color: rgb(77, 77, 238);
+  width: 253px;
+  height: 95%;
+  
+}
+
+#Mis-trabajos .card3 {
+  background-color: rgb(77, 77, 238);
+  width: 270px;
+  height: 98%;
+  
+}
+
+#Mis-trabajos .card2 {
+  background-color: rgb(77, 77, 238);
+  height: 98%;
+  width: 270px;
+}
+
+#Mis-trabajos .card1 {
+  background-color: rgb(77, 77, 238);
+  width: 250px;
+  height: 103%;
 }
 
 /* Contacto */
@@ -41,7 +109,132 @@ body {
   color: #373a3c;
 }
 
-@media (max-width: 768px) {
+/*Botones*/
+/* From Uiverse.io by Mike11jr */ 
+/*btn 1*/
+.scene {
+  width: 10em;
+  justify-content: center;
+  align-items: center;
+}
+
+.cube {
+  color: #ccc;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  transition: all 0.85s cubic-bezier(.17,.67,.14,.93);
+  transform-style: preserve-3d;
+  transform-origin: 100% 50%;
+  width: 10em;
+  height: 4em;
+}
+
+.cube:hover {
+  transform: rotateX(-90deg);
+}
+.side {
+  box-sizing: border-box;
+  position: absolute;
+  display: inline-block;
+  height: 4em;
+  width: 10em;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 1.5em;
+  font-weight: bold;
+}
+
+.top {
+  background: wheat;
+  color: #222229;
+  transform: rotateX(90deg) translate3d(0, 0, 2em);
+  box-shadow: inset 0 0 0 5px #fff;
+}
+
+.front {
+  background: #222229;
+  color: #fff;
+  box-shadow: inset 0 0 0 5px #fff;
+  transform: translate3d(0, 0, 2em);
+}
+/*btn 2*/
+/* From Uiverse.io by Web-Potato */ 
+button {
+  padding: 0.1em 0.25em;
+  width: 13em;
+  height: 4.2em;
+  background-color: #212121;
+  border: 0.08em solid #fff;
+  border-radius: 0.3em;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+button span {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 0.4em;
+  width: 8.25em;
+  height: 2.5em;
+  background-color: #212121;
+  border-radius: 0.2em;
+  font-size: 1.5em;
+  color: #fff;
+  border: 0.08em solid #fff;
+  box-shadow: 0 0.4em 0.1em 0.019em #fff;
+}
+
+button span:hover {
+  transition: all 0.5s;
+  transform: translate(0, 0.4em);
+  box-shadow: 0 0 0 0 #fff;
+}
+
+button span:not(hover) {
+  transition: all 1s;
+}
+
+/*btn 3*/
+
+/* From Uiverse.io by hamoode-taha-04 */ 
+.ui-btn {
+  cursor: pointer;
+  border-radius: 5px;
+  color: rgb(219, 218, 218);
+  border-style: solid;
+  background-color: transparent;
+  border-color: rgb(219, 218, 218);
+  width: 120px;
+  height: 40px;
+  transition: 0.2s ease;
+  text-transform: uppercase;
+  border-width: 2px;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+.ui-btn:hover {
+  color: rgb(247, 247, 247);
+  background-color: rgb(255, 8, 0);
+  border-color: rgb(255, 0, 0);
+  text-shadow: 0 0 50px white, 0 0 20px white, 0 0 15px white;
+  box-shadow: 0 0 50px rgb(255, 0, 0), 0 0 30px rgb(255, 0, 0),
+    0 0 60px rgb(255, 0, 0), 0 0 120px rgb(255, 0, 0);
+  font-size: 20px;
+  width: 130px;
+  height: 50px;
+  letter-spacing: 3px;
+}
+.ui-btn:active {
+  width: 115px;
+  height: 38px;
+  letter-spacing: 0px;
+}
+
+
+/*@media (max-width: 768px) {
   #Contacto form label {
     font-weight: 400;
   }
@@ -50,4 +243,8 @@ body {
     width: 100px;
   }
 
-}
+  #Mis-trabajos .card-1 {
+    width: 50%;
+  }
+
+}*/
